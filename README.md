@@ -11,11 +11,14 @@ Introduction
 Dataset Description
 -----------------------------------
 
-* S.A_chembl2023.csv (26,428 molecules):
+* S.A_chembl2023.csv (26,428 molecules)
+  
    S. aureus-related datasets collected from ChEMBL23 database (https://www.ebi.ac.uk/chembl/) and curated by salt stripping, neutralization, SMILES standardization, the removal of compounds with too many rotatable bonds (> 20) and too high molecular weight (> 600) as well as the averaging of different MIC values for the same compound. Please note the compounds with average MIC below 32 μg/mL were defined as active compounds and the others were defined as inactive compounds. 
 
 * S.A_train : S.A_test = 8 : 2 （randomly）
+
    These two files contain the compounds in the training set (21,142 compounds) and those in the test set (5,286 compounds) by random partion.  
 
 * Target prediction dataset
+  
    1,212 highly potent anti-S. aureus compounds (MIC ≤ 0.1 μg/mL) were selected out from the dataset used for machine learning (SA_chembl2023.csv). 
