@@ -4,7 +4,7 @@ Introduction
 -----------------------------------
 * anti-S. aureus-Dataset is the data set collected and curated from ChEMBL23 database for machine learning-based prediction models of anti-S. aureus activity.
 
-* We used an open-source software, AutoMolDesigner (V1.1) (https://github.com/taoshen99/AutoMolDesigner) , a new AI-based software for the design of small-molecule antibiotics developed by our research group, to construct classification models and applied this model to anti-S. aureus activity prediction of the compounds in the SPECS chemical library.
+* We used an open-source software, AutoMolDesigner (V1.1) (https://github.com/taoshen99/AutoMolDesigner) , a new AI-based software for the design of small-molecule antibiotics developed by our research group, to construct classification models and applied this model to anti-S. aureus activity prediction of the compounds in the SPECS chemical library (http://www.specs.net, ~210,000 molecules).
 
 * Notably, this is the first time AutoMolDesigner has been applied to real-world antibiotic discovery!
 
