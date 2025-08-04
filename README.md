@@ -6,7 +6,7 @@ Introduction
 
 * We used an open-source software, AutoMolDesigner (V1.1) (https://github.com/taoshen99/AutoMolDesigner) , a new AI-based software for the design of small-molecule antibiotics developed by our research group, to construct classification models and applied this model to anti-S. aureus activity prediction of the compounds in the SPECS chemical library.
 
-* It was the first time that AutoMolDesigner was applied to real-world antibiotic discover!
+* Notably, this is the first time AutoMolDesigner has been applied to real-world antibiotic discovery!
 
 Dataset Description
 -----------------------------------
